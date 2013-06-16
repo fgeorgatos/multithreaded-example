@@ -18,8 +18,8 @@ rsync = "rsync -avn -z" # a = rltpgoD
 source = "/path/to/source"
 destination = "/path/to/destination"
 #dirprefix = "D:\\"
-dirprefix = "/tmp"
-logprefix = dirprefix + "logs//threads_log"
+dirprefix = "/tmp/"
+logprefix = dirprefix + "logs/threads_log"
 
 now = datetime.datetime.now()
 logfiledate = now.strftime("%Y-%m-%d %H-%M-%S")
