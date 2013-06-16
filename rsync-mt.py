@@ -2,6 +2,8 @@
 #
 # Originally written by Brandon Burton
 # Amendments written by Fotis Georgatos
+#
+# ref: http://www.reliam.com/company/featured_geek
 
 from threading import Thread
 import subprocess, os, sys
